@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # === CONFIGURACIONES DE WATSON ===
-WATSON_URL = "https://api.us-south.assistant.watson.cloud.ibm.com/v1/workspaces/c26bbdff-9b26-4405-9260-125655c9ddc1/message"
+WATSON_URL = "https://api.us-south.assistant.watson.cloud.ibm.com/instances/dbec99ff-fe74-43a5-989c-2ef686aa7c9f"
 WATSON_AUTH = ("apikey", "O7cWhbMQ1oJPx-IpcxNVMXxy8nGa2L7fz873rOG_4bcA")
 
 # Memoria temporal de contextos
